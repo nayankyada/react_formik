@@ -1,11 +1,10 @@
 import "styles/global.css";
-
-import Home from "pages";
+import Basic from "./components/9_Basic"
 
 function App(): JSX.Element {
   return (
     <div className="App">
-      <Home />
+      <Basic/>
     </div>
   );
 }
